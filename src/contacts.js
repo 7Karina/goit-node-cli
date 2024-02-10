@@ -3,6 +3,7 @@ const path = require('node:path');
 const crypto = require('crypto');
 
 const contactsPath = path.join(__dirname, 'db', 'contacts.json');
+console.log(__dirname);
 
 async function readContacts() {
   try {
